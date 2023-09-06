@@ -1,0 +1,14 @@
+.mic-img,
+.set-img,
+.eq-img {
+  width: 30px;
+  height: auto;
+}
+
+.for-img,
+.sir-img,
+.bac-img,
+.pin-img {
+  width: 20px;
+  height: auto;
+}
