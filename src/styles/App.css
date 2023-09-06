@@ -1,3 +1,18 @@
 h1 {
-  color: red;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  background-color: rgb(75, 75, 196);
+  padding: 0.5rem 0;
+}
+
+.logo-heading,
+.nav-icons {
+  display: flex;
+  gap: 1.4rem;
+  padding: 1rem 1rem;
 }
