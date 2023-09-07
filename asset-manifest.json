@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/capstone-react-metrics-webapp/static/css/main.02783bbd.css",
+    "main.js": "/capstone-react-metrics-webapp/static/js/main.6b8b0e41.js",
+    "static/media/search.png": "/capstone-react-metrics-webapp/static/media/search.a85db02b02945b0e58e5.png",
+    "static/media/earthquake.png": "/capstone-react-metrics-webapp/static/media/earthquake.ceb30dd843e28dd6ec76.png",
+    "static/media/pin.png": "/capstone-react-metrics-webapp/static/media/pin.d1e0d44f0aeb110ef88f.png",
+    "static/media/siren.png": "/capstone-react-metrics-webapp/static/media/siren.ddc4e97457a06ab491b4.png",
+    "static/media/settings.png": "/capstone-react-metrics-webapp/static/media/settings.fd9cb79a2028b66f67eb.png",
+    "static/media/right.png": "/capstone-react-metrics-webapp/static/media/right.f8067476df922c27844f.png",
+    "static/media/mic.png": "/capstone-react-metrics-webapp/static/media/mic.736272cadb2f2aa528ad.png",
+    "index.html": "/capstone-react-metrics-webapp/index.html",
+    "main.02783bbd.css.map": "/capstone-react-metrics-webapp/static/css/main.02783bbd.css.map",
+    "main.6b8b0e41.js.map": "/capstone-react-metrics-webapp/static/js/main.6b8b0e41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02783bbd.css",
+    "static/js/main.6b8b0e41.js"
+  ]
+}
