@@ -73,7 +73,7 @@
 
  <a name="live-demo"></a>
 
-- [EarthQuake Metrics]()
+- [EarthQuake Metrics](https://earthquake-metrics-v1.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,6 +209,7 @@ You can deploy this project using:
 ```sh
   gh-pages
 ```
+This Projects live demo will be deployed using [Render](https://render.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
