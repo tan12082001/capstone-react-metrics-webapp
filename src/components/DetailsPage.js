@@ -13,7 +13,7 @@ const Details = () => {
       <footer className="details-footer">
         <p>
           Credit to :
-          <a href="https://www.usgs.gov/programs/earthquake-hazards" target="_blank" rel="noopener noreferrer">USGS</a>
+          <a className="footer-link" href="https://www.usgs.gov/programs/earthquake-hazards" target="_blank" rel="noopener noreferrer">USGS</a>
         </p>
       </footer>
     </div>
