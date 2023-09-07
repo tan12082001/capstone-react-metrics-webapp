@@ -257,7 +257,7 @@ I would like to thank Microverse for providing the required lessons and tutorial
 
 United States Geological Survey - [USGS](https://earthquake.usgs.gov/fdsnws/event/1/)
 
-EarthQuakes data API(Initial) - [API](https://earthquake.usgs.gov/fdsnws/event/1/query?format=xml&starttime=2014-01-01&endtime=2014-01-02&minmagnitude=8)
+EarthQuakes data API(Initial) - [API](https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2001-01-01&endtime=2023-01-02&minmagnitude=8)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
