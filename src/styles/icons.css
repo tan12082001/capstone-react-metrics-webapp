@@ -1,14 +1,17 @@
 .mic-img,
 .set-img,
-.eq-img {
+.eq-img,
+.bac-img,
+.sea-img,
+.get-img {
   width: 30px;
   height: auto;
 }
 
 .for-img,
 .sir-img,
-.bac-img,
-.pin-img {
+.pin-img,
+.war-img {
   width: 20px;
   height: auto;
 }

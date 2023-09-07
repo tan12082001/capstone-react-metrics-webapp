@@ -1,3 +1,28 @@
+.search-mag {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(85, 85, 205);
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+input.search-input {
+  width: 90%;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding: 0.4rem 1rem;
+}
+
+.list-heading {
+  width: 100%;
+  background-color: rgb(75, 75, 161);
+  color: #fff;
+  padding: 0.5rem;
+}
+
 .list-outer {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -39,6 +64,11 @@
 }
 
 @media (min-width: 768px) {
+  input.search-input {
+    width: 40%;
+    padding: 0.6rem 1rem;
+  }
+
   .list-outer {
     grid-template-columns: 20% 20% 20% 20% 20%;
   }
