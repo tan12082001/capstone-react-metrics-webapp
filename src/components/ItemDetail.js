@@ -28,7 +28,7 @@ const ItemDetails = ({ itemInfo }) => {
           <WarningIcon />
           Alert:
         </span>
-        {alert}
+        {alert || 'N/A'}
       </p>
       <p className="details-p">
         <span>Place: </span>
@@ -56,8 +56,8 @@ const ItemDetails = ({ itemInfo }) => {
 
 ItemDetails.propTypes = {
   itemInfo: PropTypes.shape({
-    title: PropTypes.string.isRequired,
-    alert: PropTypes.string.isRequired,
+    title: PropTypes.string,
+    alert: PropTypes.string,
     mag: PropTypes.number.isRequired,
     type: PropTypes.string.isRequired,
     place: PropTypes.string.isRequired,
