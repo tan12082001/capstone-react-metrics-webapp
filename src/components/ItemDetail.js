@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
-import { PinIcon } from './Icons';
+import { PinIcon, WarningIcon } from './Icons';
 
 const ItemDetails = ({ itemInfo }) => {
   const {
     title,
+    alert,
     place,
     mag,
     type,
@@ -11,18 +12,26 @@ const ItemDetails = ({ itemInfo }) => {
     url,
     time,
   } = itemInfo;
+
   return (
     <div className="details-outer">
-      <h2>{title}</h2>
+      <h2>
+        <PinIcon />
+        {title}
+      </h2>
       <p className="details-p">
         <span>Disaster Type: </span>
-        {type}
+        {type.charAt(0).toUpperCase() + type.slice(1)}
       </p>
       <p className="details-p">
         <span>
-          <PinIcon />
-          Place:
+          <WarningIcon />
+          Alert:
         </span>
+        {alert}
+      </p>
+      <p className="details-p">
+        <span>Place: </span>
         {place}
       </p>
       <p className="details-p">
@@ -39,7 +48,7 @@ const ItemDetails = ({ itemInfo }) => {
       </p>
       <p className="details-p">
         <span>More Info: </span>
-        <a href={url} target="_blank" rel="noopener noreferrer">USGS Event Link</a>
+        <a className="info-link" href={url} target="_blank" rel="noopener noreferrer">USGS Event Link</a>
       </p>
     </div>
   );
@@ -48,6 +57,7 @@ const ItemDetails = ({ itemInfo }) => {
 ItemDetails.propTypes = {
   itemInfo: PropTypes.shape({
     title: PropTypes.string.isRequired,
+    alert: PropTypes.string.isRequired,
     mag: PropTypes.number.isRequired,
     type: PropTypes.string.isRequired,
     place: PropTypes.string.isRequired,
