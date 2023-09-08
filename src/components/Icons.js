@@ -5,7 +5,6 @@ import back from '../assets/left-arrow.png';
 import eqicon from '../assets/earthquake.png';
 import mag from '../assets/siren.png';
 import pin from '../assets/pin.png';
-import search from '../assets/search.png';
 import '../styles/icons.css';
 
 export const MicIcon = () => (
@@ -50,10 +49,6 @@ export const WarningIcon = () => (
       clipRule="evenodd"
     />
   </svg>
-);
-
-export const SearchIcon = () => (
-  <img className="sea-img" src={search} alt="search" />
 );
 
 export const GetIcon = () => (
