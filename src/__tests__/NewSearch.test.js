@@ -5,7 +5,7 @@ import store from '../redux/store';
 import NewSearch from '../components/NewSearch';
 
 jest.mock('../components/Icons', () => ({
-    GetIcon: () => <button type="button">Mocked GetIcon</button>,
+  GetIcon: () => <button type="button">Mocked GetIcon</button>,
 }));
 
 test('NewSearch component render', () => {
